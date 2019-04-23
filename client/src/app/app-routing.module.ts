@@ -8,7 +8,7 @@ import { ProjectComponent } from './project/project.component';
 const routes: Routes = [
   { path: '', redirectTo: '/', pathMatch: 'full' },
   { path: 'addTask', component: AddTaskComponent },
-  { path: 'viewtask', component: ViewTaskComponent },
+  { path: 'viewTask', component: ViewTaskComponent },
   { path: 'user', component: UserComponent},
   { path: 'project', component: ProjectComponent}
 ];
